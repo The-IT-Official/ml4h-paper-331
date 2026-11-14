@@ -6,8 +6,6 @@ Elaine Wynette Wijaya\*, Nathan Peter\*, Ryan Varghese\*, Elizabeth Anne Krupins
 
 \* equal contribution
 
-[arXiv link] | [OpenReview link]
-
 ## Summary
 
 Saliency benchmarks usually rank methods such as Grad-CAM from a single training run per method. We retrain one fixed DenseNet-121 pneumonia classifier on the RSNA Pneumonia Detection Challenge data 21 times, changing only the random seed, and score Grad-CAM against radiologist bounding boxes on the 601 box-bearing test patients using per-image AUPRC and the pointing-game hit rate.
